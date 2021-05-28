@@ -45,12 +45,7 @@ public class Task6 {
     }
         return "notfound";
 }
-    // Задание №2
-    // Функция возвращает срезы длины n в алфавитном порядке (рекурсивно)
-
-    //  Используем ArrayList для добавления следующих срезов, вызывая функцию
-    //рекурсивно. Для сортировки используем Collections.sort().
-    //  Преобразовываем в массив и возвращаем
+    
     public static String[] chops(String str, int n) {
         ArrayList<String> chop = new ArrayList<>();           // список для хранения срезов
 
@@ -77,9 +72,7 @@ public class Task6 {
             message = message + " ";
         }
 
-        // Создаём key.length() массивов длины input.length()/key.length()+1
-        //Где первый элемент будет равен символу ключа, а остальные -
-        //принадлежащие ему столбцы.
+   
 
         char[][] PillarsAndRows;
         PillarsAndRows = new char    [key.length()]   [message.length()/key.length()+1];        // количество строк=лина ключа-
