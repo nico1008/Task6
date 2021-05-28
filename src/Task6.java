@@ -34,6 +34,7 @@ public class Task6 {
             if (alfavit.contains(Character.toString(base.charAt(j)))){                                          // проверяем есть ли в куске символ их алфавита
                 alfavit = alfavit.replaceFirst(Character.toString(base.charAt(j)), "");              // только 1 раз можно использовать
                 found = true;
+                
             }else{
                 found = false;
                 break;
