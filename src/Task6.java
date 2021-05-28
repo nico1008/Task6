@@ -73,8 +73,6 @@ public class Task6 {
             message = message + " ";
         }
 
-   
-
         char[][] PillarsAndRows;
         PillarsAndRows = new char    [key.length()]   [message.length()/key.length()+1];        // количество строк=лина ключа-
                                                                                                 // кол-во столбцов = message/key+1
